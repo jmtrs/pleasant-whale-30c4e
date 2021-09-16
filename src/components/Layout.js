@@ -3,7 +3,7 @@ const { useState } = React;
 import {Helmet} from 'react-helmet';
 import _ from 'lodash';
 
-import {withPrefix, attribute} from '../utils';
+import {withPrefix, attribute, getDarkMode} from '../utils';
 import Header from './Header';
 import Footer from './Footer';
 
