@@ -12,9 +12,9 @@ export default class Body extends React.Component {
         const [darkMode, isDarkMode] = useState(false);
     
         const buttonHandler = () => {
-            isDarkMode(current => !current);
+            isDarkMode(darkMode => !darkMode);
         }
-        
+
         return (
             <React.Fragment>
                 <Helmet>
