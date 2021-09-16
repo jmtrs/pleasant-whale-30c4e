@@ -53,7 +53,7 @@ export default class Body extends React.Component {
                     <body className={'palette-' + _.get(this.props, 'data.config.color_scheme', null) + ' accent-' + _.get(this.props, 'data.config.accent_color', null)} />
                 </Helmet>
                 <div id="page" className="site">
-                  <Header {...this.props} onChange={}/>
+                  <Header {...this.props} onChange={() => {}}/>
                   <main id="content" className="site-content">
                     {this.props.children}
                   </main>
