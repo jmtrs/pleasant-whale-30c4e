@@ -1,4 +1,5 @@
 import React from 'react';
+const {useEffect, useState } = React;
 import {Helmet} from 'react-helmet';
 import _ from 'lodash';
 
