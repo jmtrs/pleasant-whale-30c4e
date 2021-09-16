@@ -7,7 +7,7 @@ import {withPrefix, attribute} from '../utils';
 import Header from './Header';
 import Footer from './Footer';
 
-default function attribute(name, value, condition) {
+function attribute(name, value, condition) {
     if (typeof condition === 'undefined') {
         condition = true;
     }
