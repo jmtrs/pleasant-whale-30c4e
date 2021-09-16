@@ -6,7 +6,6 @@ import Action from './Action';
 import Icon from './Icon';
 
 export default class Header extends React.Component {
-    let icon = _.get(this.props, 'icon', null);
     render() {
         return (
             <header id="masthead" className="site-header outer">
