@@ -20,8 +20,8 @@ export default class Header extends React.Component {
                     <p className="site-title"><Link href={withPrefix('/')}>{_.get(this.props, 'data.config.header.title', null)}</Link></p>
                     }
                   </div>
-                  <Icon {...this.props} icon={'dribbble'} />
                   {_.get(this.props, 'data.config.header.has_nav', null) && (<React.Fragment>
+                  <Icon {...this.props} icon={'dribbble'} />
                   <button id="menu-open" className="menu-toggle"><span className="screen-reader-text">Close Menu</span><span className="icon-menu" aria-hidden="true" /></button>
                   <nav id="main-navigation" className="site-navigation" aria-label="Main Navigation">
                     <div className="site-nav-inside">
