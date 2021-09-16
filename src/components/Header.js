@@ -21,7 +21,7 @@ export default class Header extends React.Component {
                             }
                         </div>
                         {_.get(this.props, 'data.config.header.has_nav', null) && (<React.Fragment>
-                            <div>
+                            <div className="menu-toggle">
                                 <Icon {...this.props} icon={'dribbble'} />
                             </div>
                             <button id="menu-open" className="menu-toggle"><span className="screen-reader-text">Close Menu</span><span className="icon-menu" aria-hidden="true" /></button>
