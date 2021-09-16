@@ -37,8 +37,8 @@ export default class Header extends React.Component {
                         })}
                       </ul>
                     </div>
-                    <Icon {...this.props} icon={'dribbble'} />
                   </nav>
+                  <Icon {...this.props} icon={'dribbble'} />
                   </React.Fragment>)}
                 </div>
               </div>
