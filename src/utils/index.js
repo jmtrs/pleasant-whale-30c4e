@@ -1,7 +1,7 @@
 export { default as attribute } from './attribute';
 export { default as classNames } from './classNames';
 export { default as cycler } from './cycler';
-export { default as DarkMode } from './link';
+export { default as DarkMode } from './darkMode';
 export { default as getPage } from './getPage';
 export { default as getPageByFilePath } from './getPageByFilePath';
 export { default as getPages } from './getPages';
