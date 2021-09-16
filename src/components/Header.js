@@ -21,7 +21,6 @@ export default class Header extends React.Component {
                             }
                         </div>
                         {_.get(this.props, 'data.config.header.has_nav', null) && (
-                        
                         <React.Fragment>
                             <div className="color-toggle-container">
                                 <Icon {...this.props} icon={'dribbble'} />
