@@ -24,7 +24,7 @@ $palette: (
   accent-yellow:     #ed9700
 );
 
-#stackbit-widget {}
+#stackbit-widget {display: none;}
 
 @import "imports/functions";
 @import "imports/reset";
