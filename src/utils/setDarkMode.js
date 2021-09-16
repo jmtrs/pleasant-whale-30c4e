@@ -7,7 +7,5 @@ export default function setDarkMode() {
 };
 
 export default function getDarkMode() {
-    console.log(!!_.get(this.props, 'data.config.color_scheme', null));
-        
     return darkMode
 };
