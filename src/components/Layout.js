@@ -7,8 +7,15 @@ import {withPrefix, attribute} from '../utils';
 import Header from './Header';
 import Footer from './Footer';
 
+default function attribute(name, value, condition) {
+    if (typeof condition === 'undefined') {
+        condition = true;
+    }
+    return condition ? { [name]: value } : null;
+};
+
 export default class Body extends React.Component {
-    
+
     render() {
         console.log(!!_.get(this.props, 'data.config.color_scheme', null));
         
