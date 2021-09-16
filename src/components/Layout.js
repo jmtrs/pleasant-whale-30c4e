@@ -15,10 +15,6 @@ function setDarkMode() {
         const buttonHandler = () => {
             isDarkMode(darkMode => !darkMode);
         }
-    if (typeof condition === 'undefined') {
-        condition = true;
-    }
-    return condition ? { [name]: value } : null;
 };
 
 export default class Body extends React.Component {
