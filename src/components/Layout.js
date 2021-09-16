@@ -14,6 +14,7 @@ export default class Body extends React.Component {
         const buttonHandler = () => {
             isDarkMode(current => !current);
         }
+        
         return (
             <React.Fragment>
                 <Helmet>
