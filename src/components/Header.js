@@ -7,6 +7,7 @@ import Icon from './Icon';
 
 export default class Header extends React.Component {
     render() {
+        let icon = _.get(this.props, 'icon', null);
         return (
             <header id="masthead" className="site-header outer">
                 <div className="inner">
