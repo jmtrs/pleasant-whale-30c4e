@@ -24,7 +24,7 @@ export default class Header extends React.Component {
                         {_.get(this.props, 'data.config.header.has_nav', null) && (
                             <React.Fragment>
                                 <div className="color-toggle-container">
-                                    <button className="button-scheme" onClick={() => {}}>
+                                    <button className="button-scheme" onClick={() => {onChange}}>
                                         <Icon {...this.props} icon={'light'} />
                                     </button>
                                 </div>
