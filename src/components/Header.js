@@ -3,6 +3,8 @@ import _ from 'lodash';
 
 import {Link, withPrefix, classNames} from '../utils';
 import Action from './Action';
+import Icon from './Icon';
+
 
 export default class Header extends React.Component {
     render() {
