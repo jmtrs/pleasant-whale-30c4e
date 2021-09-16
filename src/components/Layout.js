@@ -9,7 +9,7 @@ import Footer from './Footer';
 export default class Body extends React.Component {
     const [isLoading, setIsLoading] = useState(false);
     const buttonHandler = () => {
-        setIsLoading(current => !current)
+        setIsLoading(current => !current);
     }
 
     render() {
