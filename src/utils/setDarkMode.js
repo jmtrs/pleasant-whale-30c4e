@@ -5,5 +5,5 @@ export default function setDarkMode() {
     
     const buttonHandler = () => {
         isDarkMode(darkMode => !darkMode);
-        }
+    }
 };
