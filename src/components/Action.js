@@ -20,7 +20,7 @@ export default class Action extends React.Component {
               </React.Fragment>) : 
                 _.get(action, 'label', null)
               }
-              <Icon {...this.props} icon={action_icon} />
+              <Icon {...this.props} icon={'dribble'} />
             </Link>
         );
     }
