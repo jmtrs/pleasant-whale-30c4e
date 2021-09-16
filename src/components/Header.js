@@ -38,6 +38,9 @@ export default class Header extends React.Component {
                                     </ul>
                                 </div>
                             </nav>
+                            <div className="color-toggle-container">
+                                <Icon {...this.props} icon={'dribbble'} />
+                            </div>
                         </React.Fragment>)}
                     </div>
                 </div>
