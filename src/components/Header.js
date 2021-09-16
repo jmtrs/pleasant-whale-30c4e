@@ -7,7 +7,7 @@ import Icon from './Icon';
 
 export default class Header extends React.Component {
     render() {
-        let onChange = _.get(this.props, 'icon', null);
+        let onChange = _.get(this.props, 'onChange', null);
         return (
             <header id="masthead" className="site-header outer">
                 <div className="inner">
