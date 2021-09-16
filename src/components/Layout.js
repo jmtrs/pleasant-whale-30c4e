@@ -9,7 +9,7 @@ import Footer from './Footer';
 export default class Body extends React.Component {
     const [darkMode, isDarkMode] = useState(false);
     const buttonHandler = () => {
-        setIsLoading(current => !current);
+        isDarkMode(current => !current);
     }
 
     render() {
