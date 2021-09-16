@@ -8,12 +8,6 @@ import Header from './Header';
 import Footer from './Footer';
 
 export default class Body extends React.Component {
-    const [darkMode, isDarkMode] = useState(false);
-    
-    const buttonHandler = () => {
-        isDarkMode(current => !current);
-    }
-
     render() {
         return (
             <React.Fragment>
