@@ -3,7 +3,7 @@ export default function setDarkMode() {
         
     const [darkMode, isDarkMode] = useState(!!_.get(this.props, 'data.config.color_scheme', null));
     
-        const buttonHandler = () => {
-            isDarkMode(darkMode => !darkMode);
+    const buttonHandler = () => {
+        isDarkMode(darkMode => !darkMode);
         }
 };
