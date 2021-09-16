@@ -11,7 +11,7 @@ export default class Body extends React.Component {
   const buttonHandler = () => {
     setIsLoading(current => !current)
   }
-  
+
     render() {
         return (
             <React.Fragment>
