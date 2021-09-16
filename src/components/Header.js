@@ -24,7 +24,6 @@ export default class Header extends React.Component {
                             <React.Fragment>
                                 <div className="color-toggle-container">
                                     <button id="menu-close" className="menu-toggle">
-
                                     <Icon {...this.props} icon={'light'} />
                                     </button>
                                 </div>
