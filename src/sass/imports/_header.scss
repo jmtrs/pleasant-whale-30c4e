@@ -148,14 +148,14 @@
 .color-toggle-container {
     display: flex;
     width: 100%;
-    & button icon {
+    button icon {
         width: 185%;
     }
 }
 
 @media only screen and (min-width: 801px) {
     .color-toggle-container 
-    & button icon {
+    button icon {
         width: 195%;
     }
 
