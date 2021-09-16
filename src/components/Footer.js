@@ -25,7 +25,7 @@ export default class Footer extends React.Component {
                     {_.map(_.get(this.props, 'data.config.footer.social_links', null), (action, action_idx) => (
                       <Action key={action_idx} {...this.props} action={action} />
                     ))}
-                    <Icon {...this.props} icon={'dribble'} />
+                    <Icon {...this.props} icon={'dribbble'} />
                   </div>
                   )}
                 </div>
