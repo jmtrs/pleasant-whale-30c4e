@@ -7,7 +7,7 @@ import {withPrefix, attribute} from '../utils';
 import Header from './Header';
 import Footer from './Footer';
 
-function attribute(name, value, condition) {
+function attribute() {
     console.log(!!_.get(this.props, 'data.config.color_scheme', null));
         
     const [darkMode, isDarkMode] = useState(!!_.get(this.props, 'data.config.color_scheme', null));
