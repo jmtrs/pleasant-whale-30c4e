@@ -7,6 +7,18 @@ import {withPrefix, attribute, getDarkMode} from '../utils';
 import Header from './Header';
 import Footer from './Footer';
 
+const [darkMode, isDarkMode] = useState(!!_.get(this.props, 'data.config.color_scheme', null));
+
+export function setDarkMode() {
+    console.log(!!_.get(this.props, 'data.config.color_scheme', null));
+    
+    isDarkMode(darkMode => !darkMode);
+};
+
+export function getDarkMode() {
+    return darkMode
+};
+
 export default class Body extends React.Component {
     render() {
         return (
