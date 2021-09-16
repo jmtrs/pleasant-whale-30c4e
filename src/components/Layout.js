@@ -7,7 +7,7 @@ import Header from './Header';
 import Footer from './Footer';
 
 export default class Body extends React.Component {
-    const [lightMode, setIsLoading] = useState(false);
+    const [lightMode, isL] = useState(false);
     const buttonHandler = () => {
         setIsLoading(current => !current);
     }
